@@ -1,5 +1,3 @@
-# StudyFlowAi
-Smart study scheduler that creates structured, professional timetables for exam preparation.
 # StudyFlowAi 💬
 
 Smart study scheduler that creates structured, professional timetables for exam preparation.
@@ -10,8 +8,15 @@ Smart study scheduler that creates structured, professional timetables for exam 
 - Built with [Gradio](https://gradio.app) for easy interaction
 - Simple, lightweight, and student‑friendly
 
-## 🚀 Installation
-Clone the repository:
+## 📦 Dependencies
+This project requires the following Python packages:
+- gradio
+- pandas
+- numpy
+- matplotlib
+
+(They are listed in `requirements.txt` for easy installation.)
+
+If you are running in **Google Colab**, these packages can be installed directly with:
 ```bash
-git clone https://github.com/karu179/StudyFlowAi.git
-cd StudyFlowAi
+!pip install -r requirements.txt
